@@ -1,9 +1,16 @@
+'use client'
 import Card from "./Card";
+
 import NavBar from "./NavBar";
+import Resume from "./Resume";
+import Projects from "./Projects";
+import Contact from "./Contact";
+import { useState } from "react";
 
 
 
 export default function AboutMe() {
+    const [activeSection, setActiveSection ] = useState('about');
     return(
         <div className="w-3/4 ">
 
@@ -14,13 +21,19 @@ export default function AboutMe() {
 
                         <div className="font-bold text-3xl p-4 border-b-4 w-fit border-green-500 border-rounded">
                         
-                            About Me
+                            {activeSection === 'about' && "About Me" }
+                            {activeSection === 'resume' && "Resume" }
+                            {activeSection === 'contact' && "Contact" }
+                            {activeSection === 'projects' && "Projects" }
                         </div>
                         <div className="absolute top-0.5 right-0.5">
-                            <NavBar />
+                            <NavBar onNavigate={setActiveSection}/>
                         </div>
                     </div>
+                    {activeSection === "about" && (
+                        <>
                     <div className="items-center p-4 text-xl">
+                       
                             <div className="flex justify-center items-center p-4 ">Im a Full Stack Web Developer with a passion for crafting robust and efficient backend systems.
                                 While adept in both front-end and back-end development, my true thrill lies in architecting the core 
                                 functionalities that power a seamless user experience.</div>
@@ -35,7 +48,6 @@ export default function AboutMe() {
                                 
                             
                     </div>
-            
                     <div className="">
                         <div className="font-bold text-3xl p-4">
                             What I&apos;m Doing
@@ -79,6 +91,13 @@ export default function AboutMe() {
                         </div>
                         
                     </div>
+                    </>
+                    )}
+            
+                    {activeSection === "resume" && <Resume />}
+                    {activeSection === "projects" && <Projects />}
+                    
+                    {activeSection === "contact" && <Contact />}
                 </div>
             </div>
             
