@@ -1,3 +1,4 @@
+import Card from "./Card";
 import NavBar from "./NavBar";
 
 
@@ -35,10 +36,48 @@ export default function AboutMe() {
                             
                     </div>
             
-                    <div>
+                    <div className="">
                         <div className="font-bold text-3xl p-4">
                             What I&apos;m Doing
                         </div>
+                        <div className="flex justify-center items-center items-stretch ">
+                            <div className="p-4 shadow-white">
+                                <Card
+                                imgSrc="/Images/icons8-code.gif" 
+                                title="Web Development"
+                                description="Building the future by developing Web Applications using a blend of front-end and back-end technologies." 
+                                />
+                            </div>
+                            <div className="p-4">
+
+                                <Card
+                                imgSrc="/Images/icons8-mind-map.gif" 
+                                title="Machine Learning/AI"
+                                description="Utilizing Artificial Intelligence (AI) and Machine Learning (ML) to create intelligent and 
+                                adaptive systems." 
+                                />
+                            </div>
+
+                        </div>
+                        <div className="flex justify-center items-center items-stretch">
+                            <div className="p-4">
+                                <Card
+                                imgSrc="/Images/icons8-bitcoin.gif" 
+                                title="Web3"
+                                description="Exploring the potential of Blockchain technology to revolutionize data security and transparency." 
+                                />
+                            </div>
+                            <div className="p-4">
+
+                                <Card
+                                imgSrc="/Images/icons8-figma (1).gif" 
+                                title="UI/UX Design"
+                                description="Crafting User Interfaces (UI) and User Experiences (UX) that are intuitive, visually appealing, and user-friendly." 
+                                />
+                            </div>
+
+                        </div>
+                        
                     </div>
                 </div>
             </div>
