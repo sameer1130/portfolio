@@ -13,7 +13,7 @@ export default function Bio() {
                 <div className="p-4 flex justify-center py-2 pt-16">
                     <div className="bg-zinc-600 rounded-lg p-4">
 
-                        <Image src="/Images/uifaces-cartoon-image.jpg" width={100} height={100} alt="Picture of the author" />
+                        <Image src="/Images/Avatar=22 (1).png" width={150} height={150} alt="Picture of the author" />
                     </div>
                 </div>
 

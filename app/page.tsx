@@ -6,7 +6,7 @@ import MainPage from "@/components/MainPage";
 export default function Home() {
   return (
     
-    <div className="bg-zinc-950 h-screen pt-8">
+    <div className="bg-zinc-950 min-h-screen pt-8">
       <MainPage />
     </div>
     
