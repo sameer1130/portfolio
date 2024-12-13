@@ -30,7 +30,7 @@ export default function Resume() {
             <div className="pl-12 mt-[-12px] text-md text-green-500 pb-2">
                 Jun 2020 - Sept 2020
             </div>
-            <div className="px-12 leading-loose">
+            <div className="px-12 leading-loose text-zinc-300">
                 <div>
 
                     ◦ Experienced in transforming Figma design concepts into fully functional websites through the use of HTML, CSS,

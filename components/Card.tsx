@@ -18,7 +18,7 @@ export default function Card({imgSrc, title, description}:
                     <div className="font-bold text-lg py-4 ">
                         {title}
                     </div>
-                    <div className="pb-4">
+                    <div className="pb-4 text-zinc-300">
                         {description}
                     </div>
                 </div>

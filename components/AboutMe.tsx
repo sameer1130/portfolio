@@ -32,9 +32,9 @@ export default function AboutMe() {
                     </div>
                     {activeSection === "about" && (
                         <>
-                    <div className="items-center p-4 text-xl">
+                    <div className="items-center p-4 text-xl text-zinc-300">
                        
-                            <div className="flex justify-center items-center p-4 ">Im a Full Stack Web Developer with a passion for crafting robust and efficient backend systems.
+                            <div className="flex justify-center items-center p-4">Im a Full Stack Web Developer with a passion for crafting robust and efficient backend systems.
                                 While adept in both front-end and back-end development, my true thrill lies in architecting the core 
                                 functionalities that power a seamless user experience.</div>
 
