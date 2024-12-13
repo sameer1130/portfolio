@@ -12,7 +12,7 @@ import { useState } from "react";
 export default function AboutMe() {
     const [activeSection, setActiveSection ] = useState('about');
     return(
-        <div className="w-3/4 ">
+        <div className="w-3/4 mb-12">
 
         
             <div className="relative ">

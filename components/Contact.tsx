@@ -6,7 +6,7 @@ export default function Contact() {
   const [state, handleSubmit] = useForm("xvgondzk");
 
   if (state.succeeded) {
-    return <p>Thanks for joining!</p>;
+    return <div className='px-2 py-16 font-bold text-3xl drop-shadow-lg'>Thanks for Your Message, Will get back to you Soon!</div>;
   }
 
   return (
