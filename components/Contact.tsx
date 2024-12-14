@@ -1,7 +1,7 @@
 import React from 'react';
 import { useForm, ValidationError } from '@formspree/react';
 import Plane from "../public/ion--paper-plane-outline.svg";
-import ProjectCard from './ProjectCard';
+// import ProjectCard from './ProjectCard';
 
 export default function Contact() {
   const [state, handleSubmit] = useForm("xvgondzk");
