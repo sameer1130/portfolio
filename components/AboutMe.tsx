@@ -31,7 +31,7 @@ export default function AboutMe() {
           {/* Active Section Content */}
           {activeSection === "about" && (
             <>
-              <div className=" text-xl text-zinc-300">
+              <div className=" text-lg text-zinc-300">
                 <div className="py-4">
                   I&apos;m a Full Stack Web Developer with a passion for crafting robust and efficient backend systems. While adept in both front-end and back-end development, my true thrill lies in architecting the core functionalities that power a seamless user experience.
                 </div>
@@ -48,7 +48,7 @@ export default function AboutMe() {
                 <div className="font-bold text-3xl pb-8">
                   What I&apos;m Doing
                 </div>
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 ">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6 ">
                   <Card
                     imgSrc="/Images/icons8-code.gif"
                     title="Web Development"

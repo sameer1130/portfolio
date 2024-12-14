@@ -58,7 +58,7 @@ export default function Resume() {
                 My Skills
             </div>
             <div className="flex justify-center items-center bg-zinc-700 border-zinc-100 shadow-md shadow-black px-8 py-4 rounded-2xl mt-4 overflow-auto max-h-[400px]">
-                <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-8">
+                <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-8 xl:grid-cols-5 gap-8">
                     <SkillCard image="/Images/icons8-react-480.png" title="React" />
                    
                     <SkillCard image="/Images/icons8-tailwindcss-480.png" title="CSS" />
@@ -68,15 +68,15 @@ export default function Resume() {
                     <SkillCard image="/Images/icons8-python-240.png" title="Python" />
                     <SkillCard image="/Images/icons8-nextjs-240.png" title="Nextjs" />
                     <SkillCard image="/Images/icons8-my-sql-144.png" title="SQL" />
-                    <SkillCard image="/Images/icons8-mongo-db-96.png" title="MongoDB" />
+                    <SkillCard image="/Images/icons8-mongo-db-96.png" title="Mongo" />
                     <SkillCard image="/Images/icons8-postgresql-480.png" title="Postgres" />
                     <SkillCard image="/Images/icons8-prisma-orm-240.png" title="Prisma" />
                     <SkillCard image="/Images/icons8-docker-144.png" title="Docker" />
-                    <SkillCard image="/Images/icons8-typescript-240.png" title="TypeScript" />
+                    <SkillCard image="/Images/icons8-typescript-240.png" title="TS" />
                     <SkillCard image="/Images/icons8-mind-map-100.png" title="Kafka" />
                     <SkillCard image="/Images/icons8-redis-480.png" title="Redis" />
                     <SkillCard image="/Images/icons8-aws-144.png" title="AWS" />
-                    <SkillCard image="/Images/icons8-javascript-144.png" title="JavaScript" />
+                    <SkillCard image="/Images/icons8-javascript-144.png" title="JS" />
 
     
                 </div>

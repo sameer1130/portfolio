@@ -11,12 +11,12 @@ export default function Bio() {
   const [showDetails, setShowDetails] = useState(false);
 
   return (
-    <div className="lg:max-w-4xl  xl:max-w-5xl xl:ml-1  sm:overflow-auto sm:overflow-x-hidden xl:sticky xl:top-0 mb-12">
+    <div className="lg:min-w-3xl  xl:ml-1  sm:overflow-auto sm:overflow-x-hidden xl:sticky xl:top-0 mb-12">
       <div
         className={`flex flex-col lg:flex-col text-white bg-zinc-800 border border-zinc-500 rounded-3xl ${
-          showDetails ? "w-full" : "lg:w-auto"
+          showDetails ? "w-full" : "lg:w-[270px] lg:mr-8 "
         }`}
-        style={{ maxWidth: "calc(100% - 72px)" }} // Ensure it uses full width but reduces by 72px (margin/padding)
+        // style={{ maxWidth: "calc(100% - 72px)" }} // Ensure it uses full width but reduces by 72px (margin/padding)
       >
         {/* Top Section */}
         <div

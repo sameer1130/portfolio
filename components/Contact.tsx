@@ -1,6 +1,7 @@
 import React from 'react';
 import { useForm, ValidationError } from '@formspree/react';
 import Plane from "../public/ion--paper-plane-outline.svg";
+import ProjectCard from './ProjectCard';
 
 export default function Contact() {
   const [state, handleSubmit] = useForm("xvgondzk");
@@ -14,9 +15,16 @@ export default function Contact() {
   }
 
   return (
-    <div className="px-4 mt-8 lg:w-[760px] lg:h-[600px]">
-      <h1 className="text-2xl font-bold mb-4">Contact Form</h1>
-      <form onSubmit={handleSubmit} className="space-y-6 ">
+    <div className="px-1 mt-8 lg:w-full">
+      <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 ">
+
+      
+      </div>
+      <h1 className="text-2xl font-bold mb-8 mr-12 text-zinc-400">Got a question, an opportunity, or just want to say hello? I&apos;d love to hear from you! Fill out the form below , and I&apos;ll get back to you as soon as possible. </h1>
+      <form 
+        onSubmit={handleSubmit} 
+        className="space-y-6 w-full lg:w-[calc(100%-20px)] max-w-full mx-auto"  
+      >
         {/* Full Name and Email Fields */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 w-full">
           <div>
@@ -50,13 +58,13 @@ export default function Contact() {
         {/* Message Field */}
         <div>
           <label htmlFor="message" className="block text-sm font-medium text-gray-700">
-            
+           
           </label>
           <textarea
             id="message"
             name="message"
             placeholder="Your Message"
-            className="mt-1 block w-full border border-zinc-700 rounded-2xl shadow-sm p-3 bg-zinc-800 text-white h-96"
+            className="mt-1 block w-full border border-zinc-700 rounded-2xl shadow-sm p-3 bg-zinc-800 text-white lg:h-96"
           />
           <ValidationError prefix="Message" field="message" errors={state.errors} />
         </div>
@@ -66,7 +74,7 @@ export default function Contact() {
           <button
             type="submit"
             disabled={state.submitting}
-            className="bg-zinc-700 text-green-500 px-4 py-3 rounded-xl shadow hover:bg-zinc-600 disabled:opacity-50 "
+            className="bg-zinc-700 text-green-500 px-4 py-3 rounded-xl shadow hover:bg-zinc-600 disabled:opacity-50"
           >
             <div className="flex items-center justify-center">
               <Plane className="text-green-500 w-6 h-6" />
