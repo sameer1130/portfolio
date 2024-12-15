@@ -166,7 +166,7 @@ export default function Bio() {
                     </div>
                     <div>
                         <h1 className="font-bold text-xl p-2 ">Sameer Kamble</h1>
-                        <p className="bg-zinc-500 text-zinc-200 w-fit rounded-lg p-2 py-1 m-2 px-4 text-sm">
+                        <p className="bg-zinc-500 text-center text-zinc-200 w-fit rounded-lg p-2 py-1 m-2 px-4 text-sm">
                         Software Developer
                         </p>
                     </div>
