@@ -12,7 +12,7 @@ export default function MainPage() {
         </div>
 
         {/* AboutMe Section */}
-        <div className="lg:py-4 xl:p-4 xl:mr-[40px] xl:ml-[-40px] xl:pb-8">
+        <div className="lg:py-4 xl:p-4 xl:mr-[40px] xl:ml-8 xl:pb-8">
           <AboutMe />
         </div>
       </div>
