@@ -8,14 +8,15 @@ import { useState } from "react";
 
 export default function AboutMe() {
   const [activeSection, setActiveSection] = useState('about');
-  
+
   return (
-    <div className="mb-12 w-fit lg:pb-16">
+    <div className="mb-12 w-fit lg:pb-16 pb-24 mx-4 md:mx-6 lg:m-0 ">
       <div className="relative">
+        {/* Content Section */}
         <div className="text-white bg-zinc-800 border border-zinc-500 rounded-3xl p-8">
           <div className="flex justify-between items-center">
             {/* Section Title */}
-            <div className="font-bold text-3xl py-4  border-b-4 w-fit border-green-500">
+            <div className="font-bold text-3xl py-4 border-b-4 w-fit border-green-500">
               {activeSection === 'about' && "About Me"}
               {activeSection === 'resume' && "Resume"}
               {activeSection === 'contact' && "Contact"}
@@ -31,7 +32,7 @@ export default function AboutMe() {
           {/* Active Section Content */}
           {activeSection === "about" && (
             <>
-              <div className=" text-lg text-zinc-300">
+              <div className="text-lg text-zinc-300">
                 <div className="py-4">
                   I&apos;m a Full Stack Web Developer with a passion for crafting robust and efficient backend systems. While adept in both front-end and back-end development, my true thrill lies in architecting the core functionalities that power a seamless user experience.
                 </div>
@@ -44,11 +45,11 @@ export default function AboutMe() {
               </div>
 
               {/* What I'm Doing Section */}
-              <div className="mt-6" >
+              <div className="mt-6">
                 <div className="font-bold text-3xl pb-8">
                   What I&apos;m Doing
                 </div>
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-6 ">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <Card
                     imgSrc="/Images/icons8-code.gif"
                     title="Web Development"
@@ -79,8 +80,11 @@ export default function AboutMe() {
         </div>
       </div>
 
-      {/* Padding for Small Screens */}
-      <div className="lg:hidden h-16"></div>
+      {/* NavBar for Small and Medium Screens */}
+      <div className="lg:hidden  fixed bottom-0 left-0 w-full bg-zinc-900 border-t border-zinc-500">
+        <NavBar onNavigate={setActiveSection} />
+    </div>
+
     </div>
   );
 }

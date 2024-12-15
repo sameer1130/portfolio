@@ -48,7 +48,7 @@ export default function NavBar({ onNavigate }: NavBarProps) {
       </div>
 
       {/* NavBar for Small Screens */}
-      <div className="lg:hidden fixed bottom-0 left-0 right-0 bg-zinc-800 text-white shadow-lg z-50">
+      <div className="lg:hidden rounded-tl-3xl rounded-tr-3xl fixed bottom-0 left-0 right-0 bg-zinc-600 text-white shadow-lg z-50">
         <ul className="flex justify-around items-center p-4">
           <li>
             <a

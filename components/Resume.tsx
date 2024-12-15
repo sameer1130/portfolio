@@ -57,7 +57,7 @@ export default function Resume() {
             <div className=" font-bold text-3xl text-white mt-12 px-4">
                 My Skills
             </div>
-            <div className="flex justify-center items-center bg-zinc-700 border-zinc-100 shadow-md shadow-black px-8 py-4 rounded-2xl mt-4 overflow-auto max-h-[400px]">
+            <div className="flex justify-center items-center bg-zinc-700 border-zinc-100 shadow-md shadow-black px-8 py-4 rounded-2xl mt-4 ">
                 <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-8 xl:grid-cols-5 gap-8">
                     <SkillCard image="/Images/icons8-react-480.png" title="React" />
                    
