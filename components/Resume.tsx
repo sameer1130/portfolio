@@ -6,7 +6,7 @@ import SkillCard from "./SkillCard"
 
 export default function Resume() {
     return (
-        <div className="mb-6">
+        <div className="lg:py-4 mb-6">
         
         <div className="flex justify-start py-4 items-center font-bold text-2xl mt-4">
             <div className="flex justify-center items-center p-2 border border-zinc-500 bg-zinc-600 rounded-lg p-2">
