@@ -20,7 +20,7 @@ export default function Contact() {
 
       
       </div>
-      <h1 className="text-2xl font-bold mb-8 mr-12 text-zinc-400">Got a question, an opportunity, or just want to say hello? I&apos;d love to hear from you! Fill out the form below , and I&apos;ll get back to you as soon as possible. </h1>
+      <h1 className="text-2xl font-bold mb-8 text-zinc-400">Got a question, an opportunity, or just want to say hello? I&apos;d love to hear from you! Fill out the form below , and I&apos;ll get back to you as soon as possible. </h1>
       <form 
         onSubmit={handleSubmit} 
         className="space-y-6 w-full lg:w-[calc(100%-20px)] max-w-full mx-auto"  

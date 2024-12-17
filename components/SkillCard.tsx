@@ -11,7 +11,7 @@ export default function SkillCard({image, title}:{
                 <div className="pl-1 max-w-fit">
                     <img src={image} alt={title} className="w-8 h-8  rounded-lg p-1 max-w-fit" />
                 </div>
-                <div className="font-bold text-lg px-1 pr-4 max-w-fit">
+                <div className="font-semibold md:font-bold text-sm md:text-lg px-1 pr-4 max-w-fit">
                     {title}
                 </div>
             </button>

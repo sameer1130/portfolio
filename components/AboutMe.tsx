@@ -81,7 +81,7 @@ export default function AboutMe() {
       </div>
 
       {/* NavBar for Small and Medium Screens */}
-      <div className="lg:hidden  fixed bottom-0 left-0 w-full bg-zinc-900 border-t border-zinc-500">
+      <div className="lg:hidden pb-8  fixed bottom-0 left-0 w-full bg-zinc-900 border-t border-zinc-500">
         <NavBar onNavigate={setActiveSection} />
     </div>
 
