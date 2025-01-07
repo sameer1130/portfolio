@@ -214,7 +214,7 @@ export default function Bio() {
                             <p className="mt-2">
                             <Doc className="inline-block text-green-500 w-4 h-4" />{" "}
                             <a
-                                href="https://www.dropbox.com/scl/fi/jcbn7rl9ybnqbkt5eeic4/Sameer_ind.pdf?rlkey=0z2w22xe3th4yqgraxmpwg53e&st=ml4lurpk&dl=0"
+                                href="https://www.dropbox.com/scl/fi/cirjvtkoraesydrzs8oi5/Sameer_ind-2.pdf?rlkey=e8rcj8rz6v1dd19p6g1x97b4c&st=8n4rmgro&dl=0"
                                 className=" text-zinc-300"
                             >
                                 Download Resume
